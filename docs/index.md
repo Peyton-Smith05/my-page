@@ -30,6 +30,7 @@ jobs:
 * The above code creates a GitHub action that executes everytime there is a push to the repository. In this case it is installing all the prerequisites and executing the command ```mkdocs gh-deploy --force``` which deploys the mkdocs again on GitHub Pages.
 * Push this directory and file to the main branch and an action is created and will run on push
     * Note: I experienced up to 5-7 minute wait times for the update to occur on the page.
+* Added a new line.
 
 ## Step 3 - You're done
 * Make changes the mkdocs and commit them to main and {==vualah!==} :thumbsup:
