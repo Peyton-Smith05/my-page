@@ -1,9 +1,48 @@
-# Peyton's Mkdocs
-This is my mkdocs project documentation page.
-This is a new line.
-This is a test.
+# Peyton's tutorial for Mkdocs and Github Pages
 
-# Plans
-* 'github' put mkdocs on github pages.
-* I am adding a new line.
-* Adding another line.
+## Step 1 - Setting up the repository
+* Create your repository.
+* Add mkdocs.yml and docs directory with the index.md page.
+* Commit all changes to main.
+
+## Step 2 - Using Github Actions
+* Create a new directory titled .github/workflows within the repository.
+* Create a .yml file in the workflows directory.
+* Insert the following lines into the .yml file.
+``` yaml
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
+```
+* The above code creates a github action that executes everytime there is a push to the repository. In this case it is installing all the prerequisites and executing the command ```mkdocs gh-deploy --force``` which deploys the mkdocs again on Github Pages.
+
+## Issues I came across
+* Error message in Github Desktop when trying to commit changes:
+``` 
+error: couldn't set 'refs/remotes/origin/main'
+From https://github.com/Peyton-Smith05/my-page
+ ! 35ec70b..c5d2301  main       -> origin/main  (unable to update local ref)
+ ```
+- * Resolution: Running this command ```git gc --prune=now``` on linux command line in workflows directory
+- - * Source: https://stackoverflow.com/questions/10068640/git-error-on-git-pull-unable-to-update-local-ref
+
+## Sources
+* Github actions code:
+- * https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+- * More on Github Actions--> https://docs.github.com/en/actions/quickstart
+* Deploying mkdocs on Github Pages
+- * https://www.mkdocs.org/user-guide/deploying-your-docs/#custom-domains
+- - * Note: There is a second way mentioned in this site for User Pages
