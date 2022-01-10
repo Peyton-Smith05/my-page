@@ -28,6 +28,11 @@ jobs:
       - run: mkdocs gh-deploy --force
 ```
 * The above code creates a github action that executes everytime there is a push to the repository. In this case it is installing all the prerequisites and executing the command ```mkdocs gh-deploy --force``` which deploys the mkdocs again on Github Pages.
+* Push this directory and file to the main branch and an action is created and will run on push
+    * Note: I experienced up to 5-7 minute wait times for the update to occur on the page.
+
+## Step 3
+* Make changes the mkdocs and commit them to main and {==vualah!==}:thumbsup:
 
 ## Issues I came across
 * Error message in Github Desktop when trying to commit changes:
@@ -36,13 +41,15 @@ error: couldn't set 'refs/remotes/origin/main'
 From https://github.com/Peyton-Smith05/my-page
  ! 35ec70b..c5d2301  main       -> origin/main  (unable to update local ref)
  ```
-- * Resolution: Running this command ```git gc --prune=now``` on linux command line in workflows directory
-- - * Source: https://stackoverflow.com/questions/10068640/git-error-on-git-pull-unable-to-update-local-ref
+    * Resolution: Running this command ```git gc --prune=now``` on linux command line in workflows directory
+        * Source: https://stackoverflow.com/questions/10068640/git-error-on-git-pull-unable-to-update-local-ref
 
 ## Sources
 * Github actions code:
-- * https://squidfunk.github.io/mkdocs-material/publishing-your-site/
-- * More on Github Actions--> https://docs.github.com/en/actions/quickstart
+    * https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+    * More on Github Actions--> https://docs.github.com/en/actions/quickstart
 * Deploying mkdocs on Github Pages
-- * https://www.mkdocs.org/user-guide/deploying-your-docs/#custom-domains
-- - * Note: There is a second way mentioned in this site for User Pages
+    * https://www.mkdocs.org/user-guide/deploying-your-docs/#custom-domains
+        * Note: There is a second way mentioned in this site for User Pages
+* Mkdocs Styling and Formatting:
+    * https://squidfunk.github.io/mkdocs-material/reference/lists/#using-definition-lists

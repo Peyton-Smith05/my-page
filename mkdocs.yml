@@ -13,4 +13,9 @@ nav:
 #  - 'Peyton's Mkdocs 1.0'
   - Home: index.md
 
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 
