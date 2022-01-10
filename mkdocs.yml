@@ -1,0 +1,16 @@
+site_name: Peyton's mkdocs
+
+theme:
+  name: material
+  pallete:
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+
+# Page tree
+nav:
+#  - 'Peyton's Mkdocs 1.0'
+  - Home: index.md
+
+
