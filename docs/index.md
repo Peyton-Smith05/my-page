@@ -32,7 +32,7 @@ jobs:
     * Note: I experienced up to 5-7 minute wait times for the update to occur on the page.
 
 ## Step 3
-* Make changes the mkdocs and commit them to main and {==vualah!==}:thumbsup:
+* Make changes the mkdocs and commit them to main and {==vualah!==} :thumbsup:
 
 ## Issues I came across
 * Error message in Github Desktop when trying to commit changes:
