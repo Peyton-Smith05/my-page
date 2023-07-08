@@ -1,17 +1,24 @@
-site_name: Peyton's mkdocs
+site_name: Peyton Smith
 
 theme:
   name: material
+  nav_style: dark
   pallete:
-    primary: blue
-    accent: blue
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
 
 # Page tree
 nav:
-#  - 'Peyton's Mkdocs 1.0'
-  - Home: index.md
+#  - 'Peyton Smith Site'
+  - About me: index.md
+  - Experience: experience.md
+  - Projects:
+    # - Project 1: projects/project1.md
+    # - Project 2: projects/project2.md
+  - Blog: 
+    - Blog Post 1: blog/MkdocsGithubActions.md
 
 markdown_extensions:
   - pymdownx.emoji:
