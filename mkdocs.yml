@@ -15,8 +15,8 @@ nav:
   - About me: index.md
   - Experience: experience.md
   - Projects:
-    # - Project 1: projects/project1.md
-    # - Project 2: projects/project2.md
+    - Project 1: projects/project1.md
+    - Project 2: projects/project2.md
   - Blog: 
     - Blog Post 1: blog/MkdocsGithubActions.md
 
