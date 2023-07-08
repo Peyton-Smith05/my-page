@@ -4,8 +4,7 @@ theme:
   name: material
   nav_style: dark
   pallete:
-    primary: custom
-    accent: custom
+    primary: youtube
   features:
     - navigation.tabs
 
