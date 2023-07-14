@@ -1,5 +1,8 @@
-:root {
-    --md-primary-fg-color:        #EE0F0F;
+[data-md-color-scheme="custom"] {
+    --md-primary-fg-color:        #4c6444; /*Header */
     --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
+    --md-primary-fg-color--dark:  #102820;
+    --md-primary-bg-color:      #8a6240; /*Nav text title text, search icon*/
+    --md-accent-fg-color: #FF9999; 
+    --md-secondary-fg-color:  #4d2d18; 
   }
