@@ -18,10 +18,13 @@ nav:
   - About me: index.md
   - Experience: experience.md
   - Projects:
-    - Project 1: projects/project1.md
-    - Project 2: projects/project2.md
+    - Twitter Sentiment Analysis: projects/twitter_sentiment_analysis.ipynb
+    - Dumbo: projects/dumbo_xiangqi_ai.md
+    - Single Cycle Processor: projects/single_cycle_processor.md
+    - Object Detection: projects/em_algorithm.md
+    - Eternal Flame: projects/eternal_flame_simulation.md
   - Blog: 
-    - Blog Post 1: blog/MkdocsGithubActions.md
+    - Blog Post 1: blog/mkdocs_github_actions.md
 
 markdown_extensions:
   - pymdownx.emoji:
