@@ -1,6 +1,4 @@
 site_name: Peyton Smith
-site_url: ""
-use_directory_urls: false
 
 theme:
   name: material
@@ -15,16 +13,24 @@ extra_css:
 # Page tree
 nav:
 #  - 'Peyton Smith Site'
-  - About me: index.md
-  - Experience: experience.md
+  - Home: index.md
+  - Experience: 
+    - Lockheed Martin: experience/lm.md
+    - AKW Ventures LLC: experience/akw_ventures.md
+    - SEC Directed Internship: experience/sec_directed_internship.md
+    - Aggie Sat Lab: experience/aggie_sat_lab.md
   - Projects:
     - Twitter Sentiment Analysis: projects/twitter_sentiment_analysis.ipynb
-    - Dumbo: projects/dumbo_xiangqi_ai.md
-    - Single Cycle Processor: projects/single_cycle_processor.md
-    - Object Detection: projects/em_algorithm.md
+    - Image Object Detection: projects/em_algorithm.md
+    - Kalman Filter: projects/kalman_filter_state_estimate_.ipynb
+    - AI player for Xiangqi: projects/dumbo_xiangqi_ai.md
+    - Multi Echo and Feedback Comb Filter: projects/multiecho_and_feedback_comb_filter.ipynb
+    
     - Eternal Flame: projects/eternal_flame_simulation.md
   - Blog: 
-    - Blog Post 1: blog/mkdocs_github_actions.md
+    - Revenue Cat: blog/revenue_cat.md
+    # - The Alignment Problem: blog/alignment_problem.md
+    - MKDocs and Github Actions: blog/mkdocs_github_actions.md
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -36,5 +42,15 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
+extra_css:
+- stylesheets/extra.css
+
+plugins:
+  - mkdocs-jupyter:
+    include: ["*.py", "*.ipynb"]
+    execute: true
+    allow_errors: false
+    kernel_name: env
+    theme: dark
 
 
