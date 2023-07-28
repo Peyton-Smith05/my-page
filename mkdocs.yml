@@ -4,11 +4,9 @@ theme:
   name: material
   nav_style: dark
   palette:
-    scheme: custom
+    scheme: slate
   features:
     - navigation.tabs
-extra_css:
-  - stylesheets/extra.css
 
 # Page tree
 nav:
