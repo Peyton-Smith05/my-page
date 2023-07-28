@@ -39,4 +39,4 @@ Overall, this is a more probabilistic wya to approach k means. By using a probab
 
 ## ***Update***
 
-This algorithm reflects similar steps to the Kalman filter. There are some key differences however it uses Gaussian probability distributions to predict then update in a repetitive cycle. See my post about [Kalman Filters](../blog/kalmanfilter.ipynb) to learn more.
+This algorithm reflects similar steps to the Kalman filter. There are some key differences however it uses Gaussian probability distributions to predict then update in a repetitive cycle. See my post about [Kalman Filters](../blog/kalman_filter_1d.ipynb) to learn more.

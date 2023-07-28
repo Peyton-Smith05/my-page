@@ -28,6 +28,7 @@ nav:
     
     - Eternal Flame: projects/eternal_flame_simulation.md
   - Blog: 
+    - Kalman Filter: blog/kalman_filter_1d.ipynb
     - Revenue Cat: blog/revenue_cat.md
     # - The Alignment Problem: blog/alignment_problem.md
     - MKDocs and Github Actions: blog/mkdocs_github_actions.md
@@ -47,10 +48,11 @@ extra_css:
 
 plugins:
   - mkdocs-jupyter:
-    include: ["*.py", "*.ipynb"]
-    execute: true
-    allow_errors: false
-    kernel_name: env
-    theme: dark
+      include: ["*.py", "*.ipynb"]
+      execute: true
+      ignore: ["projects/twitter_sentiment_analysis.ipynb"]
+      allow_errors: false
+      kernel_name: python3
+      theme: dark
 
 
