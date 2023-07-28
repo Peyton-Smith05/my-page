@@ -48,7 +48,7 @@ plugins:
   - mkdocs-jupyter:
       include: ["*.py", "*.ipynb"]
       execute: true
-      ignore: ["projects/twitter_sentiment_analysis.ipynb"]
+      # ignore: ["projects/twitter_sentiment_analysis.ipynb"]
       allow_errors: false
       kernel_name: python3
       theme: dark
