@@ -14,6 +14,9 @@ Aggie Sat had submitted a proposal and I was on the Command and Data Handling (C
 
 ## Skills Acquired/Utilized
 
-* Leadership
-* Proposal planning
-* Fault Detection and Isolation concepts
+#### Technical
+
+ ```Proposal Planning``` ```Fault Detection and Isolation concepts```
+#### Soft
+
+ ```Leadership```

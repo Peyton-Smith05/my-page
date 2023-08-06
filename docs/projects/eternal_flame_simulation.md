@@ -2,10 +2,7 @@
 
 Eternal Flame was a team project for my Computer Graphics class at SUTD. The goal of the project was to simulate particle motion, to model a flame, and render the particles with a build board implementation. This was built in C++ with OpenGL.
 
-<!-- TODO : Format these two images -->
-![Candle](../assets/candle.gif)
 
-![Lighter](../assets/lighter.gif)
 
 ## Particle Motion
 
@@ -22,3 +19,18 @@ We saw the benefits in our project through this implementation. We were able to 
 We used 2 different shaders when rendering everything in our scene. One was used for the particles and the other for the 3D model of the candle or lighter. These shaders were implemented with Phone lighting. The were then compiled and rendered on the GPU through OpenGL's shared implementation.
 
 ## Results
+
+<body>
+<div class="cont">
+  <div class="image-container">
+    <div class="image-wrapper">
+      <h2>Lighter</h2>
+      <img src="../../assets/lighter.gif" alt="Lighter">  
+    </div>
+    <div class="image-wrapper">
+      <h2>Candle</h2>
+      <img src="../../assets/candle.gif" alt="Candle">
+    </div>
+  </div>
+</div>
+</body>

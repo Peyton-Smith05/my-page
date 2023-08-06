@@ -42,6 +42,18 @@ With the implementation of these two optimizers Dumbo was able to achieve a sear
 ## Results
 
 We also created a playable GUI. The user selects what color they would like to play as and then the AI assumes the opposite color. Dumbo was able to beat myself and 1 other teammate who were novices to the game. Dumbo also won a few games against online intermediate bots. 
-![Start Menu](../assets/dumbo_start.png)
 
-![In Game](../assets/dumbo_ingame.png)
+<body>
+<div class="cont">
+  <div class="image-container">
+    <div class="image-wrapper">
+      <h2>Start Menu</h2>
+      <img src="../../assets/dumbo_start.png" alt="Start Menu">  
+    </div>
+    <div class="image-wrapper">
+      <h2>In Game</h2>
+      <img src="../../assets/dumbo_ingame.png" alt="In game">
+    </div>
+  </div>
+</div>
+</body>

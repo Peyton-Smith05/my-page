@@ -14,9 +14,6 @@ Additionally, I helped automate data processing to retrieve live information for
 
 ## Skills Acquired/Utilized
 
-* Swift/SwiftUI
-* Agile Development Process
-* Git
-* Xcode
-* Cron
-* Unix
+#### Technical 
+
+```Swift/SwiftUI``` ```Agile Development Process``` ```Git``` ```Xcode``` ```Cron``` ```Unix```

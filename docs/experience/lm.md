@@ -1,6 +1,19 @@
 # Lockheed Martin Aeronautics
 ### **Sensor Fusion Software Engineering Intern**, *May 2023 - August 2023*
 
+<body>
+    <div class="cont">
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="../../assets/2023_lm_intern_group.jpg" alt="Lockheed Group">  
+            </div>
+            <div class="image-wrapper">
+                <img src="../../assets/2023_lm_peyton.jpg" alt="Lockheed Peyton">
+            </div>
+        </div>
+  </div>
+</body>
+
 ## About the Company
 
 Lockheed Martin is a global aerospace and defense company. The support a wide range of advanced military aircraft and related technologies. Lockheed Martin Aeronautics is one of four major business segments of Lockheed Martin Corp that is best known for is creation and production of the F-35 Lightning II, F-22, and F-16 fighter jets.
@@ -15,13 +28,8 @@ While developing this tool I worked effectively in a team of six. We utilized th
 
 ## Skills Acquired/Utilized
 
-* C# 
-* ASP.NET
-* Winforms
-* Python
-* Sensor Fusion
-* Data Association
-* Git
-* Agile Development
+#### Technical
+
+```Sensor Fusion``` ```Data Association``` ```C#``` ```ASP.NET``` ```Winforms``` ```CMake``` ```Python``` ```Git``` ```Scaled Agile Development```
 
 

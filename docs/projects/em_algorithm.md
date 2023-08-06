@@ -6,7 +6,7 @@ This project was done for a class assignment at SUTD for Machine Learning. io_da
 
 ## Implementation
 
-My implementation used the given read_data() function to collect the LAB color values for ach pixel. It is then converted to a numpy array of ${n}$ by ${d}$ dimensions. ${n}$ being the number of pixels in the image and ${d}$ being 3 for each of the LAB values. I then initialized my weights, mean, and covariances with the kmeanInitialization() function. This function used the one iteration of k means to Cluster each of the points. From there the weights were initialized by $\frac{n_k}{n}$ for each value of ${k}$ where ${k}$ is 2 for the number of objects. In this case background and subject. The mean was initialized by taking the average of the individual ${L}$, ${A}$, and ${B}$ values for each cluster. The covariance is initialized the same way with the variance formula. 
+My implementation used the given read_data() function to collect the LAB color values for ach pixel. It is then converted to a numpy array of $n$ by $d$ dimensions. $n$ being the number of pixels in the image and ${d}$ being 3 for each of the LAB values. I then initialized my weights, mean, and covariances with the kmeanInitialization() function. This function used the one iteration of k means to Cluster each of the points. From there the weights were initialized by $\frac{n_k}{n}$ for each value of ${k}$ where ${k}$ is 2 for the number of objects. In this case background and subject. The mean was initialized by taking the average of the individual ${L}$, ${A}$, and ${B}$ values for each cluster. The covariance is initialized the same way with the variance formula. 
 
 Once the initialization step was done it went into a loop that checks for convergence. Then the *E-step* was next. In the *E-step* the responsibilities were calculated using the weights multiplied by the probability distribution function. This is done column by column where each column is an attribute ${k}$. Then I divided each row by the sum of the rows values to get a soft classification where the classified one will approach 1 and the unclassified one will approach 0.
 
@@ -16,36 +16,54 @@ Overall, this is a more probabilistic way to approach k-means. By using a probab
 
 ## Results
 
-### Input
+<body>
+<div class="cont">
+  <div class="image-container">
+    <div class="image-wrapper">
+      <h2>Input</h2>
+      <img src="../../assets/cow.jpg" alt="Cow Input">  
+    </div>
+    <div class="image-wrapper">
+      <h2>Output</h2>
+      <img src="../../assets/out2_cow.jpg" alt="Cow Output">
+    </div>
+  </div>
 
+  <div class="image-container">
+    <div class="image-wrapper">
+      <h2>Input</h2>
+      <img src="../../assets/fox.jpg" alt="Fox Input">  
+    </div>
+    <div class="image-wrapper">
+      <h2>Output</h2>
+      <img src="../../assets/out2_fox.jpg" alt="Fox Output">
+    </div>
+  </div>
 
- <link rel="stylesheet" type="text/css" href="../../stylesheets/extra.css">
+  <div class="image-container">
+    <div class="image-wrapper">
+      <h2>Input</h2>
+      <img src="../../assets/owl.jpg" alt="Owl Input">  
+    </div>
+    <div class="image-wrapper">
+      <h2>Output</h2>
+      <img src="../../assets/out2_owl.jpg" alt="Owl Output">
+    </div>
+  </div>
 
-<div class="image-container">
-    <Text>Hello</Text>
-    <img src="../../assets/cow.jpg" alt="Cow Input">
-    <img src="../../assets/out2_cow.jpg" alt="Cow Output">
+  <div class="image-container">
+    <div class="image-wrapper">
+      <h2>Input</h2>
+      <img src="../../assets/zebra.jpg" alt="Zebra Input">  
+    </div>
+    <div class="image-wrapper">
+      <h2>Output</h2>
+      <img src="../../assets/out2_zebra.jpg" alt="Zebra Output">
+    </div>
+  </div>
 </div>
 
-
-
-
-
-![Fox mask](../assets/fox.jpg)
-
-![Owl mask](../assets/owl.jpg)
-
-![Zebra mask](../assets/zebra.jpg)
-
-### Output
-
-![Cow mask](../assets/out2_cow.jpg)
-
-![Fox mask](../assets/out2_fox.jpg)
-
-![Owl mask](../assets/out2_owl.jpg)
-
-![Zebra mask](../assets/out2_zebra.jpg)
+</body>
 
 ## ***Update***
 

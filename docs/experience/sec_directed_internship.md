@@ -14,9 +14,10 @@ Through out the course of the summer my team and I worked in MATLAB to propagate
 
 ## Skills Acquired/Utilized
 
-* MATLAB
-* Orbit Propagation, SGP4 and SDP4
-* Git
-* Business Plan Development
-* Collaboration
-* Presentation
+#### Technical
+
+```MATLAB``` ```Orbit Propagation, SGP4 and SDP4``` ```Git``` ```Business Plan Development```
+
+#### Soft
+
+```Collaboration``` ```Presentation```
