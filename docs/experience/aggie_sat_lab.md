@@ -8,9 +8,9 @@
 
 ## Role
 
-I was apart of the ALARM project. This was an Autonomous Lunar Regolith Manipulator. NASA sent out a request for proposals for a $2 million grant for an autonomous lunar rover. Its purpose was to be deployed to prepare lunar regolith for a rocket to land on. It is essentially and autonomous lunar bull dozer. 
+NASA sent out a request for proposals for a $2 million grant for an autonomous lunar rover. I was apart of Aggie Sat's ALARM project. This was an Autonomous Lunar Regolith Manipulator. Its purpose was to be deployed to prepare lunar regolith for a rocket to land on. It is essentially an autonomous lunar bull dozer. 
 
-Aggie Sat had submitted a proposal and I on the Command and Data Handling (CDH) team for this project. We performed preliminary design work on the rover by creating FDIR documents that conceptualized the requirements for the CDH sub-system on board the rover. During this time I was promoted to CDH Team Lead and managed the sub team in completing weekly tasks. 
+Aggie Sat had submitted a proposal and I was on the Command and Data Handling (CDH) team for this project. We performed preliminary design work on the rover by creating FDIR documents that conceptualized the requirements for the CDH sub-system on board the rover. During this time I was promoted to CDH Team Lead and managed the sub team in completing weekly tasks. 
 
 ## Skills Acquired/Utilized
 

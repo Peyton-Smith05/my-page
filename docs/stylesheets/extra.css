@@ -1,8 +1,66 @@
-[data-md-color-scheme="custom"] {
-    --md-primary-fg-color:        #4c6444; /*Header */
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #102820;
-    --md-primary-bg-color:      #8a6240; /*Nav text title text, search icon*/
-    --md-accent-fg-color: #FF9999; 
-    --md-secondary-fg-color:  #4d2d18; 
-  }
+
+
+ /* Light mode styles */
+[data-md-color-scheme="l_mode"] {
+
+  /*BODY AND TEXT COLORS*/
+  --md-default-fg-color:               #353131;
+  --md-default-fg-color--light:        #544f4f;
+  --md-default-fg-color--lighter:      #746d6d;
+  --md-default-fg-color--lightest:     #121111;
+  --md-default-bg-color--light:        #e7eeed;/*Controls the background color*/
+  --md-default-bg-color--lighter:      #E7EFEF;
+  --md-default-bg-color--lightest:     #CEDEDE;
+  --md-default-bg-color:               #e7eeed;
+
+  /*PRIMARY AND ACCENT*/
+  --md-primary-fg-color:               #B7CECE; /* Controls the header color*/
+  --md-primary-bg-color:               #12100e;/*Controls the header text color*/
+  --md-accent-fg-color:                #B7CECE;
+  --md-accent-fg-color--transparent:   #B7CECE;
+  --md-accent-bg-color:                #B7CECE;
+
+  /*LINKS AND NAV*/
+  --md-typeset-a-color:                #b08a5d; /*Changes link color*/
+  --md-typeset-color:                  #000000; /*Changes text color*/
+}
+
+/* Dark mode styles */
+[data-md-color-scheme="d_mode"] {
+  /*BODY AND TEXT COLORS*/
+  --md-default-fg-color:               #FFFFFF;
+  --md-default-fg-color--light:        #E7EFEF;
+  --md-default-fg-color--lighter:      #CEDEDE;
+  --md-default-fg-color--lightest:     #B7CECE;
+  --md-default-bg-color--light:        #353131;
+  --md-default-bg-color--lighter:      #544f4f;
+  --md-default-bg-color--lightest:     #746d6d;
+  --md-default-bg-color:               #121111;
+
+  /*PRIMARY AND ACCENT*/
+  --md-primary-fg-color:               #000000; /*Header bg color*/
+  --md-primary-bg-color:               #f4ffff; /*Header Text color*/
+  --md-accent-fg-color:                #B7CECE;
+  --md-accent-fg-color--transparent:   #B7CECE;
+  --md-accent-bg-color:                #B7CECE;
+
+  /*LINKS AND NAV*/
+  --md-typeset-a-color:                #b08a5d; /*Changes link color*/
+  --md-typeset-color:                  #c3d3d3; /*Changes text color*/
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+  max-width: 48%;
+  height: auto;
+}
+
+
+

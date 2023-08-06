@@ -2,11 +2,32 @@ site_name: Peyton Smith
 
 theme:
   name: material
-  nav_style: dark
-  palette:
-    scheme: slate
+  logo: assets/black_logo.png
+  font: 
+    text: Arial
   features:
     - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  language: en
+  palette: 
+    # Palette toggle for light mode
+    - scheme: l_mode
+      logo: assets/black_logo.png
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: d_mode
+      logo: assets/white_logo.png
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    
+extra_css:
+- stylesheets/extra.css
 
 # Page tree
 nav:
@@ -23,13 +44,12 @@ nav:
     - Kalman Filter: projects/kalman_filter_state_estimate_.ipynb
     - AI player for Xiangqi: projects/dumbo_xiangqi_ai.md
     - Multi Echo and Feedback Comb Filter: projects/multiecho_and_feedback_comb_filter.ipynb
-    
     - Eternal Flame: projects/eternal_flame_simulation.md
-  - Blog: 
-    - Kalman Filter: blog/kalman_filter_1d.ipynb
-    - Revenue Cat: blog/revenue_cat.md
-    # - The Alignment Problem: blog/alignment_problem.md
-    - MKDocs and Github Actions: blog/mkdocs_github_actions.md
+  - Notes: 
+    - Kalman Filter: notes/kalman_filter_1d.ipynb
+    - Revenue Cat: notes/revenue_cat.md
+    # - The Alignment Problem: notes/alignment_problem.md
+    - MKDocs and Github Actions: notes/mkdocs_github_actions.md
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -41,8 +61,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
-extra_css:
-- stylesheets/extra.css
+
 
 plugins:
   - mkdocs-jupyter:

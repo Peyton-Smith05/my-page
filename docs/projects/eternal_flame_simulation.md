@@ -9,7 +9,7 @@ Eternal Flame was a team project for my Computer Graphics class at SUTD. The goa
 
 ## Particle Motion
 
-The general motion of the flame was controlled using newtons equations for acceleration and velocity. We then wanted to receive input from the user which allowed them to change wind direction and magnitude and the amount of oxygen. The Wind effect was achieved by by translating the particle system along an axis. The acis was user defined and the effect resulted in a shear of the particle system. The oxygen effect was meant to decrease or increase the size of the flame. This was achieved by scaling the velocity and time-to-live variables according the amount of oxygen concentration the user inputs.
+The general motion of the flame was controlled using newtons equations for acceleration and velocity. We then wanted to receive input from the user which allowed them to change wind direction and magnitude and the amount of oxygen. The wind effect was achieved by by translating the particle system along an axis. The acis was user defined and the effect resulted in a shear of the particle system. The oxygen effect was meant to decrease or increase the size of the flame. This was achieved by scaling the velocity and time-to-live variables according the amount of oxygen concentration the user inputs.
 
 ## Billboard Rendering
 

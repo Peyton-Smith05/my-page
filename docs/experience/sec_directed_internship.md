@@ -8,9 +8,9 @@ The [Student Engineers' Council](https://sec.tamu.edu/) exists solely to provide
 
 ## Role
 
-As a direct intern I was placed on a team of 5 and were tasked to research and devise a product solution for satellite collision avoidance with space debris and other orbital objects. As a team we researched about the growing need to solve this problem. As more and more satellites enter low and high earth orbit it become increasingly more likely that a collision will occur not just with other satellites but with the hundreds of thousands of space debris tracked and untracked. 
+As a direct intern I was placed on a team of five and was tasked to research and devise a product solution for satellite collision avoidance with space debris and other orbital objects. As a team, we researched about the growing need to solve this problem. As more and more satellites enter low and high earth orbit, it become increasingly more likely that a collision will occur not just with other satellites but with the hundreds of thousands of space debris tracked and untracked. 
 
-Through out the course of the summer my team and I worked in MATLAB to propagate orbital paths of know space debris tracks put out the Department of Defense. We utilized the SGP4 and SDP4 orbital propagators to accomplish this task. You can view this in our [GitHub](https://github.com/Peyton-Smith05/project-north-star). After that we worked to design a business model, financial plan, and product to present to a broad at the end of the internship. 
+Through out the course of the summer my team and I worked in MATLAB to propagate orbital paths of know space debris tracks put out the Department of Defense. We utilized the SGP4 and SDP4 orbital propagators to accomplish this task. You can view this in our [GitHub](https://github.com/Peyton-Smith05/project-north-star). After that we worked to design a business model, financial plan, and product to present to a board at the end of the internship. 
 
 ## Skills Acquired/Utilized
 
