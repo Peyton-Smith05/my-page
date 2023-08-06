@@ -17,7 +17,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: d_mode
       toggle:
@@ -51,15 +50,15 @@ nav:
     - SEC Directed Internship: experience/sec_directed_internship.md
     - Aggie Sat Lab: experience/aggie_sat_lab.md
   - Projects:
-    # - Twitter Sentiment Analysis: projects/twitter_sentiment_analysis.ipynb
+    - Twitter Sentiment Analysis: projects/twitter_sentiment_analysis.ipynb
     - Image Object Detection: projects/em_algorithm.md
-    # - Kalman Filter: projects/kalman_filter_state_estimate_.ipynb
+    - Kalman Filter: projects/kalman_filter_state_estimate_.ipynb
     - AI player for Xiangqi: projects/dumbo_xiangqi_ai.md
-    # - Multi Echo and Feedback Comb Filter: projects/multiecho_and_feedback_comb_filter.ipynb
+    - Multi Echo and Feedback Comb Filter: projects/multiecho_and_feedback_comb_filter.ipynb
     - Eternal Flame: projects/eternal_flame_simulation.md
   - Notes: 
     # - The Alignment Problem: notes/alignment_problem.md
-    # - Kalman Filter: notes/kalman_filter_1d.ipynb
+    - Kalman Filter: notes/kalman_filter_1d.ipynb
     - Revenue Cat: notes/revenue_cat.md
     - MKDocs and Github Actions: notes/mkdocs_github_actions.md
 
@@ -73,14 +72,14 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
-# plugins:
-#   - search
-#   - mkdocs-jupyter:
-#       include: ["*.py", "*.ipynb"]
-#       execute: true
-#       # ignore: ["projects/twitter_sentiment_analysis.ipynb"]
-#       allow_errors: false
-#       kernel_name: python3
-#       theme: dark
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include: ["*.py", "*.ipynb"]
+      execute: true
+      # ignore: ["projects/twitter_sentiment_analysis.ipynb"]
+      allow_errors: false
+      kernel_name: python3
+      theme: dark
 
 
