@@ -1,0 +1,134 @@
+
+
+ /* Light mode styles */
+[data-md-color-scheme="l_mode"] {
+
+  /*BODY AND TEXT COLORS*/
+  --md-default-fg-color:               #353131;
+  --md-default-fg-color--light:        #544f4f;
+  --md-default-fg-color--lighter:      #746d6d;
+  --md-default-fg-color--lightest:     #121111;
+  --md-default-bg-color--light:        #e7eeed;/*Controls the background color*/
+  --md-default-bg-color--lighter:      #E7EFEF;
+  --md-default-bg-color--lightest:     #CEDEDE;
+  --md-default-bg-color:               #e7eeed;
+
+  /*PRIMARY AND ACCENT*/
+  --md-primary-fg-color:               #B7CECE; /* Controls the header color*/
+  --md-primary-bg-color:               #12100e;/*Controls the header text color*/
+  --md-accent-fg-color:                #B7CECE;
+  --md-accent-fg-color--transparent:   #B7CECE;
+  --md-accent-bg-color:                #B7CECE;
+
+  /*CODE BLOCK FG AND BG*/
+  --md-code-fg-color:                  #E7EFEF;
+  --md-code-bg-color:                  #12100e;
+
+  /*LINKS AND NAV*/
+  --md-typeset-a-color:                #b08a5d; /*Changes link color*/
+  --md-typeset-color:                  #000000; /*Changes text color*/
+}
+
+/* Dark mode styles */
+[data-md-color-scheme="d_mode"] {
+  /*BODY AND TEXT COLORS*/
+  --md-default-fg-color:               #B7CECE;
+  --md-default-fg-color--light:        #E7EFEF;
+  --md-default-fg-color--lighter:      #CEDEDE;
+  --md-default-fg-color--lightest:     #B7CECE;
+  --md-default-bg-color--light:        #353131;
+  --md-default-bg-color--lighter:      #544f4f;
+  --md-default-bg-color--lightest:     #746d6d;
+  --md-default-bg-color:               #121111;
+
+  /*PRIMARY AND ACCENT*/
+  --md-primary-fg-color:               #000000; /*Header bg color*/
+  --md-primary-bg-color:               #f4ffff; /*Header Text color*/
+  --md-accent-fg-color:                #B7CECE;
+  --md-accent-fg-color--transparent:   #B7CECE;
+  --md-accent-bg-color:                #B7CECE;
+
+  /*LINKS AND NAV*/
+  --md-typeset-a-color:                #b08a5d; /*Changes link color*/
+  --md-typeset-color:                  #f4ffff; /*Changes text color*/
+}
+
+/*For Profile header*/
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: var(--md-default-bg-color);
+  padding: 20px;
+}
+
+.banner img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/*For 2 images*/
+
+.cont {
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adding a shadow */
+  padding: 20px;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin: 10px;
+}
+
+.image-wrapper img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-wrapper h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/*Revenue Cat Stylize*/
+.revenue-cat {
+  text-align: center;
+  margin: 10px;
+}
+
+.revenue-cat img {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
